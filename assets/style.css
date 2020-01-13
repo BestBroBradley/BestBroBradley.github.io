@@ -81,6 +81,12 @@ p {
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 500px) {
+    #footer {
+      display: none;
+    }
+  }
+
 #profileImg {
     text-align: center;
 }
@@ -174,6 +180,9 @@ img:not(#myPic) {
     #contactPage {
       display: block;
     }
+
+
+
   }
 
 #myInfo {
@@ -189,7 +198,8 @@ img:not(#myPic) {
 
 @media only screen and (max-width: 700px) {
     #myInfo {
-      width: 80%
+      width: 80%;
+      margin: auto;
     }
   }
 
