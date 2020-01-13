@@ -34,25 +34,28 @@
             <h3>allison.bradley@outlook.com</h3>
         </div>
         <div id="contactBox">
-            <h2 id="contactMe">
-                Contact me
-            </h2>
-            <h3>
-                Name:
-            </h3>
-            <input>
-            <h3>
-                Email:
-            </h3>
-            <input>
-            <h3>
-                Message:
-            </h3>
-            <textarea rows="4" cols="50" placeholder="Your message here"></textarea>
-            <div id="submitBtn"><button type="submit">
-                    Submit
-                </button>
-            </div>
+            <form action="https://formspree.io/xeqaaezq" method="POST">
+                <h2 id="contactMe">
+                    Contact me
+                </h2>
+                <h3>
+                    Name:
+                </h3>
+                <input type="text" name="name">
+                <h3>
+                    Email:
+                </h3>
+                <input type="email" name="_replyto">
+                <h3>
+                    Message:
+                </h3>
+                <textarea type="text" name="message" value="Send" rows="4" cols="50"
+                    placeholder="Your message here"></textarea>
+                <div id="submitBtn"><button type="submit" value="Send">
+                        Submit
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 

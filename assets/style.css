@@ -221,6 +221,9 @@ img:not(#myPic) {
     border-bottom: 3px grey solid;
 }
 
+form {
+
+}
 
 input, textarea {
     width: 100%;
