@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Allison Bradley</title>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <div id="headerDiv" class="container">
+            <div class="dropdown">
+                <button id="dropdownBtn" class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="index.html">About Me</a>
+                    <a href="portfolio.html">Porfolio</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </div>
+            <div>
+                <h1 id="pageTitle">About Me</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mainContent">
+        <div id="profileImg">
+            <img id="myPic" src="assets/images/profile-photo.jpeg" alt="Author at Bag End">
+        </div>
+        <div id="bio">
+            <p>Welcome to my page!  This is a one-stop-shop to see my previous projects, get my contact information if you'd like to get in touch with me, or learn more about me and my work.</p>
+            <p>I'm a junior developer currently going through a full-stack coding bootcamp with Trilogy.  When I'm not coding, I'm playing board games, knitting, or watching Star Trek.  I love a good puzzle, and the problem-solving nature of coding satisfies all my problem-solving needs.</p>
+        </div>
+    </div>
+    <div class="container" id="footerCont">
+    <footer>
+        <div id="footer">
+            <div id="linkBtns">
+            <button id="portfolio" onclick="location.href='portfolio.html'" type="button">
+             Portfolio</button>
+            <button id="contact" onclick="location.href='contact.html'" type="button">
+            Contact</button>
+            <button id="aboutMe" onclick="location.href='index.html'" type="button">
+            About Me</button>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
+
 </html>
