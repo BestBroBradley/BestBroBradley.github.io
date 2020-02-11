@@ -221,8 +221,12 @@ img:not(#myPic) {
     border-bottom: 3px grey solid;
 }
 
-form {
+img#beer {
+    height: 75%
+}
 
+.projItem {
+    text-align: center
 }
 
 input, textarea {
